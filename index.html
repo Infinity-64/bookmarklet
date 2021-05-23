@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookmarklets</title>
+  </head>
+  <body>
+   <a href="javascript:(d=>{d.head.appendChild(d.createElement('style')).innerText='html,img,video{filter:invert(1)hue-rotate(180deg)sepia(0.075)grayscale(0.05);filter:invert(0.8)hue-rotate(180deg)sepia(0.75)grayscale(0.05))}';})(document);">dark mode</a>
+   <a href="javascript: (d => {d.head.appendChild(d.createElement('style')).innerText = 'html,img,video{-webkit-filter:invert(0)hue-rotate(0deg)sepia(0.25)grayscale(0.1);filter:invert(0)sepia(0.3)hue-rotate(0deg)grayscale(0.15)bodybackground:%23000}';})(document);">refresher (changes the color theme)</a>
+   <a href="javascript:(d=>{ d.head.appendChild(d.createElement('style')).innerText = 'html,img,video{-webkit-filter: invert(0) hue-rotate(180deg) sepia(0.15); filter:invert(0) sepia(0.15) hue-rotate(180deg)bodybackground:%23000}';})(document);">blue light reducer</a>
+   <a href="javascript:(function(){window.open('http://is.gd/create.php?longurl=' + encodeURIComponent(location.href))})();">shorten url (is.gd)</a>
+  </body>
+</html>
